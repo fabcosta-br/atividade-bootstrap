@@ -57,5 +57,21 @@ header {
     border-radius: 20px;
     font-weight: bold;
     display: inline-block;
-    
+}
+@media (max-width: 500px) {
+    .header-conteudo {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+    }
+    .header-top {
+        flex-direction: column;
+    }
+    .header-top .logo {
+        order: 2;
+    }
+    .header-top nav {
+        order: 1;
+        margin-bottom: 80px;
+    }
 }
